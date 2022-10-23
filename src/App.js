@@ -7,12 +7,16 @@ import Message from './Component/Message';
 import Counter from './Component/Counter';
 import FunctionClick from './Component/FunctionClick';
 import ClassClick from './Component/ClassClick';
+import BindingEventHandler from './Component/BindingEventHandler';
+import ParentComponent from './Component/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      <ParentComponent />
+      {/* <BindingEventHandler/> */}
+      {/* <FunctionClick />
+      <ClassClick /> */}
       {/*<Counter />
       {/*<Message />*/}
      {/*<Greet name='Abdul' heroName='Sow'>
